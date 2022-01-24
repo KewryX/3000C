@@ -1,8 +1,11 @@
 
-from mate1 import hello_vilag
+from mate1 import vane
+from mate3 import _19cel_oszthato
 lista = []
-with open('input.txt',"r", encoding="utf8") as f:
+with open('03_000.txt',"r", encoding="utf8") as f:
     for sor in f:
         lista.append(sor)
 
-mate1.hello_vilag()
+vane(lista)
+
+_19cel_oszthato(lista)
